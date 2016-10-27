@@ -21,6 +21,3 @@ RUN         cd  /tmp && \
             ln -s "${KOTLIN_HOME}/bin/"* "/usr/bin/" && \
             apk del wget ca-certificates curl openssl && \
             rm -rf /tmp/* /var/cache/apk/*
-
-
-CMD         ["kotlinc"]
