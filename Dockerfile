@@ -9,7 +9,7 @@ ENV         KOTLIN_VERSION=1.0.4 \
 RUN         apk update && \
             apk add ca-certificates && \
             update-ca-certificates && \
-            apk add openssl wget
+            apk add openssl wget bash
 
 RUN         cd  /tmp && \
             wget -k "https://github.com/JetBrains/kotlin/releases/download/v${KOTLIN_VERSION}/kotlin-compiler-${KOTLIN_VERSION}.zip"  && \
@@ -17,8 +17,10 @@ RUN         cd  /tmp && \
             mkdir -p "${KOTLIN_HOME}" && \
             mv "/tmp/kotlinc/bin" "/tmp/kotlinc/lib" "${KOTLIN_HOME}" && \
             rm ${KOTLIN_HOME}/bin/*.bat && \
+            chmod +x ${KOTLIN_HOME}/bin/* && \
             ln -s "${KOTLIN_HOME}/bin/"* "/usr/bin/" && \
             apk del wget ca-certificates curl openssl && \
             rm -rf /tmp/* /var/cache/apk/*
 
-CMD         ["/usr/bin/kotlin"]
+
+CMD         ["kotlinc"]
