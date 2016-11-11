@@ -8,7 +8,7 @@ Current java (JRE8) : Latest version : *1.0.5*
 Tags:
 * 1.0.4
 * 1.0.5
-* v1.0.5withJDK8
+* 1.0.5withJDK8
 * latest (1.0.5)
 
 
