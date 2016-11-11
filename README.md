@@ -17,4 +17,4 @@ To start kotlin use this command ```docker run -it rayyildiz/kotlin kotlinc``` 
 [![](https://images.microbadger.com/badges/image/rayyildiz/kotlin.svg)](https://microbadger.com/images/rayyildiz/kotlin "Get your own image badge on microbadger.com")
 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/rayyildiz/kotlin.svg?style=flat-square)](https://hub.docker.com/r/rayyildiz/kotlin/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rayyildiz/kotlin.svg)](https://hub.docker.com/r/rayyildiz/kotlin/)
