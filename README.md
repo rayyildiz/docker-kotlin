@@ -12,6 +12,7 @@ Tags:
 * 1.0.6
 * 1.0.5withJDK8
 * 1.0.5-2withJDK8
+* 1.1.0-beta-17
 * latest (1.0.6)
 
 
