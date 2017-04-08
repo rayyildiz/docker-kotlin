@@ -1,7 +1,7 @@
 FROM        rayyildiz/java8:jre8
 MAINTAINER  Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
-ENV         KOTLIN_VERSION=1.1.0 \
+ENV         KOTLIN_VERSION=1.1.1 \
             KOTLIN_HOME=/usr/local/kotlin
 
 # https://github.com/JetBrains/kotlin/releases/download/v1.0.4/kotlin-compiler-1.0.4.zip
