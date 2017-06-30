@@ -1,4 +1,4 @@
-FROM        rayyildiz/java8:jre8
+FROM        rayyildiz/java8:jdk8
 MAINTAINER  Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
 ENV         KOTLIN_VERSION=1.1.3 \
