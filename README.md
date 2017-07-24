@@ -19,6 +19,7 @@ Tags:
 * 1.0.5-2withJDK8
 * 1.1.1withJDK8
 * 1.1.3-withJDK8
+* 1.1.3-2withJDK8
 * latest (1.1.3-2)
 
 
