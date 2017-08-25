@@ -1,10 +1,8 @@
 FROM        rayyildiz/java8:jre8
 MAINTAINER  Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
-ENV         KOTLIN_VERSION=1.1.3-2 \
+ENV         KOTLIN_VERSION=1.1.4 \
             KOTLIN_HOME=/usr/local/kotlin
-
-# https://github.com/JetBrains/kotlin/releases/download/v1.0.4/kotlin-compiler-1.0.4.zip
 
 RUN         apk update && \
             apk add ca-certificates && \
