@@ -23,6 +23,8 @@ Tags:
 * 1.1.3-withJDK8
 * 1.1.3-2withJDK8
 * 1.1.4-withJDK8
+* 1.1.4-2-openjdk-jre8
+* 1.1.4-2-openjdk-jdk8
 * latest (1.1.4-2)
 
 
