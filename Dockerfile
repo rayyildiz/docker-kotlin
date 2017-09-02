@@ -1,4 +1,4 @@
-FROM        openjdk/8-jdk
+FROM        openjdk:8-jdk
 MAINTAINER  Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
 ENV         KOTLIN_VERSION=1.1.4-2 \
