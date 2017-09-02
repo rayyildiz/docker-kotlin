@@ -5,9 +5,9 @@ ENV         KOTLIN_VERSION=1.1.4-2 \
             KOTLIN_HOME=/usr/local/kotlin
 
 RUN         apt-get update -y && \
-            apt-get install add ca-certificates -y && \
+            apt-get install ca-certificates && \
             update-ca-certificates && \
-            apt-get install openssl wget bash -y 
+            apt-get install openssl wget bash 
 
 RUN         cd  /tmp && \
             wget -k "https://github.com/JetBrains/kotlin/releases/download/v${KOTLIN_VERSION}/kotlin-compiler-${KOTLIN_VERSION}.zip"  && \
