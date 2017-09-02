@@ -4,10 +4,10 @@ MAINTAINER  Ramazan AYYILDIZ <rayyildiz@gmail.com>
 ENV         KOTLIN_VERSION=1.1.4-2 \
             KOTLIN_HOME=/usr/local/kotlin
 
-RUN         apk update && \
-            apk add ca-certificates && \
+RUN         apt-update -y && \
+            apt-get install ca-certificates && \
             update-ca-certificates && \
-            apk add openssl wget bash
+            apt-get openssl wget bash
 
 RUN         cd  /tmp && \
             wget -k "https://github.com/JetBrains/kotlin/releases/download/v${KOTLIN_VERSION}/kotlin-compiler-${KOTLIN_VERSION}.zip"  && \
@@ -17,5 +17,4 @@ RUN         cd  /tmp && \
             rm ${KOTLIN_HOME}/bin/*.bat && \
             chmod +x ${KOTLIN_HOME}/bin/* && \
             ln -s "${KOTLIN_HOME}/bin/"* "/usr/bin/" && \
-            apk del wget ca-certificates curl openssl && \
             rm -rf /tmp/* /var/cache/apk/*
