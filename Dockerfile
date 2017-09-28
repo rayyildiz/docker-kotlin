@@ -1,7 +1,7 @@
 FROM        rayyildiz/java8:jre8
 MAINTAINER  Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
-ENV         KOTLIN_VERSION=1.1.4-2 \
+ENV         KOTLIN_VERSION=1.1.50 \
             KOTLIN_HOME=/usr/local/kotlin
 
 RUN         apk update && \
