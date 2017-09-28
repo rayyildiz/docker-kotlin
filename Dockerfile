@@ -1,7 +1,7 @@
 FROM        openjdk:8-jdk
 MAINTAINER  Ramazan AYYILDIZ <rayyildiz@gmail.com>
 
-ENV         KOTLIN_VERSION=1.1.50 \
+ENV         KOTLIN_VERSION=1.1.4-2 \
             KOTLIN_HOME=/usr/local/kotlin
 
 RUN         apt-get update -y && \
