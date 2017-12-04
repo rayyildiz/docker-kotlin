@@ -1,9 +1,15 @@
 Kotlin Image for Docker
 ===
 
+[![](https://images.microbadger.com/badges/image/rayyildiz/kotlin.svg)](https://microbadger.com/images/rayyildiz/kotlin "Get your own image badge on microbadger.com")
+[![Docker Pulls](https://img.shields.io/docker/pulls/rayyildiz/kotlin.svg)](https://hub.docker.com/r/rayyildiz/kotlin/)
+[![GitHub license](https://img.shields.io/badge/latest--kotlin--version-1.2.0-blue.svg)](https://github.com/rayyildiz/docker-kotlin/blob/master/Dockerfile)
+[![GitHub license](https://img.shields.io/github/license/rayyildiz/docker-kotlin.svg)](https://github.com/rayyildiz/docker-kotlin/blob/master/LICENSE)
+
+
 Link: https://hub.docker.com/r/rayyildiz/kotlin/
 
-Current java : Latest version : *1.1.51*
+Current java : Latest version : **1.2.0**
 
 Tags:
 * 1.0.4
@@ -30,12 +36,11 @@ Tags:
 * 1.1.4-2-openjdk-jdk8
 * 1.1.50-openjdk-jre8
 * 1.1.50-openjdk-jdk8
-* latest (1.1.51)
+* latest (**1.2.0**)
 
 
-To start kotlin use this command ```docker run -it rayyildiz/kotlin kotlinc``` 
-
-[![](https://images.microbadger.com/badges/image/rayyildiz/kotlin.svg)](https://microbadger.com/images/rayyildiz/kotlin "Get your own image badge on microbadger.com")
+To start kotlin use this command ```docker run -it rayyildiz/kotlin bash``` 
 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/rayyildiz/kotlin.svg)](https://hub.docker.com/r/rayyildiz/kotlin/)
+
+
