@@ -1,7 +1,8 @@
-FROM        rayyildiz/java8:jre8
-MAINTAINER  Ramazan AYYILDIZ <rayyildiz@gmail.com>
+FROM        rayyildiz/java8:jre8 
+LABEL       MAINTAINER="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
+LABEL       KOTLIN_VERSION="1.2.10"
 
-ENV         KOTLIN_VERSION=1.2.0 \
+ENV         KOTLIN_VERSION=1.2.10 \
             KOTLIN_HOME=/usr/local/kotlin
 
 RUN         apk update && \
