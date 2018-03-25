@@ -1,4 +1,4 @@
-FROM        rayyildiz/java8:jre8 
+FROM        rayyildiz/java8:jdk8 
 LABEL       MAINTAINER="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
 LABEL       KOTLIN_VERSION="1.2.31"
 
