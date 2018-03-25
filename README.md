@@ -37,6 +37,8 @@ Tags:
 * 1.1.4-2-openjdk-jdk8
 * 1.1.50-openjdk-jre8
 * 1.1.50-openjdk-jdk8
+* jdk (**1.2.31**)
+* jre (**1.2.31**)
 * latest (**1.2.31**)
 
 
