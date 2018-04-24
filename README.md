@@ -9,7 +9,7 @@ Kotlin Image for Docker
 
 Link: https://hub.docker.com/r/rayyildiz/kotlin/
 
-Latest Kotlin version is **1.2.31**
+Latest Kotlin version is **1.2.40**
 
 Tags:
 * 1.0.4
@@ -39,11 +39,7 @@ Tags:
 * 1.1.50-openjdk-jdk8
 * jdk (**1.2.31**)
 * jre (**1.2.31**)
-* latest (**1.2.31**)
+* latest (**1.2.40**)
 
 
 To start kotlin use this command ```docker run -it rayyildiz/kotlin bash``` 
-
-
-
-
