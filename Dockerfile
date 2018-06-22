@@ -2,6 +2,9 @@ FROM        rayyildiz/java8:jre8
 LABEL       MAINTAINER="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
 LABEL       KOTLIN_VERSION="1.2.50"
 
+ENV         KOTLIN_VERSION=1.2.50 \
+            KOTLIN_HOME=/usr/local/kotlin
+
 RUN         apk update && \
             apk add ca-certificates && \
             update-ca-certificates && \
@@ -20,5 +23,3 @@ RUN         cd  /tmp && \
 
 RUN         apt-get clean
 
-ENV         KOTLIN_VERSION=1.2.50 \
-            KOTLIN_HOME=/usr/local/kotlin
