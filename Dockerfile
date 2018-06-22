@@ -1,8 +1,8 @@
 FROM        rayyildiz/java8:jdk8 
 LABEL       MAINTAINER="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
-LABEL       KOTLIN_VERSION="1.2.31"
+LABEL       KOTLIN_VERSION="1.2.50"
 
-ENV         KOTLIN_VERSION=1.2.31 \
+ENV         KOTLIN_VERSION=1.2.50 \
             KOTLIN_HOME=/usr/local/kotlin
 
 RUN         apk update && \
@@ -20,3 +20,6 @@ RUN         cd  /tmp && \
             ln -s "${KOTLIN_HOME}/bin/"* "/usr/bin/" && \
             apk del wget ca-certificates curl openssl && \
             rm -rf /tmp/* /var/cache/apk/*
+
+RUN         apt-get clean
+
