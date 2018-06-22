@@ -21,5 +21,5 @@ RUN         cd  /tmp && \
             apk del wget ca-certificates curl openssl && \
             rm -rf /tmp/* /var/cache/apk/*
 
-RUN         apt-get clean
+RUN         rm -f /var/cache/apk/*
 
