@@ -1,8 +1,8 @@
 FROM        rayyildiz/java8:jdk8 
 LABEL       MAINTAINER="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
-LABEL       KOTLIN_VERSION="1.2.50"
+LABEL       KOTLIN_VERSION="1.3.31"
 
-ENV         KOTLIN_VERSION=1.2.50 \
+ENV         KOTLIN_VERSION=1.3.31 \
             KOTLIN_HOME=/usr/local/kotlin
 
 RUN         apk update && \
