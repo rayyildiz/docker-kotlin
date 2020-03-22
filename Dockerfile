@@ -1,4 +1,4 @@
-FROM        rayyildiz/java8:jdk8 
+FROM        openjdk:8-jdk-alpine
 LABEL       MAINTAINER="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
 LABEL       KOTLIN_VERSION="1.3.70"
 
@@ -20,7 +20,5 @@ RUN         cd  /tmp && \
             ln -s "${KOTLIN_HOME}/bin/"* "/usr/bin/" && \
             apk del wget ca-certificates curl openssl && \
             rm -rf /tmp/* /var/cache/apk/*
-
-RUN         rm -f /var/cache/apk/*
 
 
