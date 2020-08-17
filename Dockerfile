@@ -1,8 +1,8 @@
-FROM        openjdk:8-jre-alpine
+FROM        openjdk:8-jre-slim
 LABEL       MAINTAINER="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
-LABEL       KOTLIN_VERSION="1.3.72"
+LABEL       KOTLIN_VERSION="1.4.0"
 
-ENV         KOTLIN_VERSION=1.3.72 \
+ENV         KOTLIN_VERSION=1.4.0 \
             KOTLIN_HOME=/usr/local/kotlin
 
 RUN         apk update && \
