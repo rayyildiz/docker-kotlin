@@ -1,4 +1,4 @@
-FROM        openjdk:8-jre-slim
+FROM        openjdk:8-jdk-slim
 LABEL       MAINTAINER="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
 LABEL       KOTLIN_VERSION="1.4.0"
 
