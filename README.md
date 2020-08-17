@@ -6,7 +6,7 @@ Kotlin Image for Docker
 
 Link: https://hub.docker.com/r/rayyildiz/kotlin/
 
-Latest Kotlin version is **1.4.0**
+Latest Kotlin version is **1.4.0** with JDK 8
 
 Tags:
 * jdk (**1.4.0**)
